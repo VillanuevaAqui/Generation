@@ -1,0 +1,87 @@
+<!-- Primera sesion de HTML con Zadbiel, Documento realizado por VillanuevaAqui -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <!-- Codificación del archivo HTML (para que las paginas web puedan utilizar caracteres que no esten en ascii)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sirve para definir la escala virtual de un sitio web y adaptarlo a la pantalla del dispositivo -->
+    <link rel="stylesheet" href="./styles.css"> <!-- Vincular archivo style.css con el HTML-->
+    <title>Libreria</title>
+
+</head>
+
+<body>
+
+    <!-- Deficiones:
+
+         HTML  HyperText Markup Language o Lenguaje de marcas de hipertexto ---- Estructura de una pagina web
+         CSS   Cascading Style Sheets o Hojas de Estilo en Cascada          ---- Apariencia de una pagina web
+         JavaScript                                                         ---- Funcionalidad de una pagina web
+
+         Etiquetas y atributos ocupados
+
+         Etiquetas
+
+         <div></div> Etiqueta que agrupa 
+         <ul> Etiqueta que crea una lista no ordenada de elementos
+            <li></li> Etiqueta que indica un elemento de la lista
+         </ul>
+         <button></buttom> Etiqueta que indica la creación de un boton
+         <script></script> Se utiliza para insertar o hacer referencia a un script ejecutable   
+         <meta> Sirve para aportar información sobre el documento
+
+         Atributos
+
+         id define un identificador único (ID) el cual no debe repetirse en todo el documento
+         src Especifica la ruta de acceso a un archivo o recurso externo que se quiere enlazar a un documento HTML
+
+    -->
+
+    <div id="Presentacion">
+
+        <h1> Bienvenidos </h1>
+        <p>Somos una empresa 100% méxicana enfocada a venta de libros internacionales </p>
+
+    </div>
+
+    <div id="Compra">
+
+        <h2> Comprar libros </h2>
+
+        <ul>
+
+            <li>50 sombras de grey</li>
+            <button>
+                <a href="./compra.html" style="color: red;">Comprar ahora</a>
+            </button>
+            <li>Harry potter</li>
+            <button>
+                <a href="./compra.html" style="color: red;">Comprar ahora</a>
+            </button>
+            <li>Divergente</li>
+            <button>
+                <a href="./compra.html" style="color: red;">Comprar ahora</a>
+            </button>
+            <li>Crepusculo</li>
+            <button>
+                <a href="./compra.html" style="color: red;">Comprar ahora</a>
+            </button>
+            <li>After</li>
+
+            <button>
+                <a href="./compra.html" style="color: red;">Comprar ahora</a>
+            </button>
+
+        </ul>
+
+    </div>
+
+    <script src="./script.js"></script> <!--Vincular Archivo main.js con el HTML-->
+
+</body>
+
+</html>

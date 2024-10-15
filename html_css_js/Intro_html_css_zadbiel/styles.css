@@ -1,11 +1,13 @@
 #Presentacion {
 
     text-align: center;
+    /* Alinea el texto segun el valor dado */
 }
 
 #Compra {
 
     margin-top: 100px;
+    /* crea un margen entre la parte de indicada (top, left, right bottom)y el elemento */
     margin-left: 50px;
 
 }
@@ -13,6 +15,7 @@
 h1 {
 
     font-size: 100px;
+    /* Determina el tamaño de la letra*/
 }
 
 p {
@@ -31,7 +34,10 @@ p {
 
 body {
     background-color: black;
+    /* Determina el color del fondo */
     justify-content: center;
     font-family: 'Times New Roman', serif;
+    /* Determina el tipo de fuente utilizada */
     color: white;
+    /* Determina el color de la fuente */
 }
