@@ -1,0 +1,37 @@
+#Presentacion {
+
+    text-align: center;
+}
+
+#Compra {
+
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+h1 {
+
+    font-size: 100px;
+}
+
+p {
+    font-size: 40px;
+}
+
+#fasecompra {
+
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+
+
+body {
+    background-color: black;
+    justify-content: center;
+    font-family: 'Times New Roman', serif;
+    color: white;
+}
