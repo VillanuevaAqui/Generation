@@ -1,0 +1,72 @@
+:root {
+
+    --primary: #ff6500;
+    --secondary: #1E3E62;
+    --navy: #0B192C
+
+}
+
+body {
+
+    background-color: var(--primary);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+
+    color: black;
+    font-size: 4rem;
+
+}
+
+.cards-container {
+
+    height: 300px; /* altura */
+    width: auto; /* ancho máximo */
+
+}
+
+.card {
+
+    display: inline-block;
+    border-radius: 30px;
+    max-width: 300px;
+    background-color: var(--navy);
+    color: var(--primary);
+    border: 5px solid black ;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 25px;
+}
+
+.card:hover{
+
+    background-color: var(--secondary);
+
+}
+
+.book-img {
+
+    border-radius: 30px;
+    max-width: 250px;
+    min-height: 250px; /* altura minima */
+
+}
+
+.buy-btn {
+    
+    background-color: var(--primary);
+    border: none;
+    width: 75px;
+    height: 35px;
+    border-radius: 15px;
+
+}
+
+.buy-btn:hover {
+    background-color: black ;
+    color: var(--primary);
+    cursor: pointer;
+}
